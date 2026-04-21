@@ -1,0 +1,82 @@
+h1 {
+  text-align: center;
+}
+body {
+
+  background-image: url(1fd4e0680f89a674b31467288a7ddb01.jpg); /* тёмный фон */
+  color: #e0e0e0; /* светлый текст */
+
+}
+.container {
+  font-size: 15px;
+  display: flex;
+  align-items: center; /* ВОТ ЭТО */
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;   /* ВОТ ЭТО центрирует */
+}
+
+.container img {
+  border-radius: 10%;
+  width: 400px;
+  flex-shrink: 0;
+}
+
+.text {
+  max-width: 600px;
+}
+.next {
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* ВОТ ЭТО главное */
+  gap: 10px; /* расстояние между кнопками */
+  margin-top: 40px; /* отступ сверху */
+}
+.next a {
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #bb86fc;
+  color: #bb86fc;
+  text-decoration: none;
+  border-radius: 8px; /* скругление */
+  cursor: pointer;
+}
+
+a:hover {
+  color:#e0e0e0;
+  border: 2px solid #e0e0e0;
+}
+.ww {
+  border: 2px solid #5b4636;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 20px;
+  color: #e6d3a3;
+  font-family: Georgia, serif;
+}
+.tex {
+  max-width: 600px;
+  border: 2px solid #5b4636;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 20px;
+  color: #e6d3a3;
+  font-family: Georgia, serif;
+}
+.wp {
+  border: 2px solid #365b5b;
+  border-radius: 12px;
+  color: rgb(225, 12, 12);
+  padding: 10px 20px;
+  color: #e31ebc;
+  font-family: Georgia, serif;
+  text-align: center;
+}
+em {
+  display: none;
+  color:aqua;
+}
+a:hover em {
+  display: inline;
+}
