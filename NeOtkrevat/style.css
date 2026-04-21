@@ -80,7 +80,7 @@ em {
 a:hover em {
   display: inline;
 }
-@media (max-width: 1219px) {
+@media (max-width: 768px) {
  .container {
     display: flex;
     flex-direction: column;
