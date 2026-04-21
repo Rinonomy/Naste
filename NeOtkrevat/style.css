@@ -80,10 +80,19 @@ em {
 a:hover em {
   display: inline;
 }
-@media (max-width: 768px) {
+@media (max-width: 1219px) {
   .header {
+    flex-direction: column;
+    align-items: flex-start;
     padding: 10px 20px;
   }
+  .container {
+  width: 100%;
+  max-width: 1219px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
 
   .menu {
     font-size: 16px;
