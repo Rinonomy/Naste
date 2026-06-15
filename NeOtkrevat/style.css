@@ -76,9 +76,7 @@ a:hover {
 em {
   color:aqua;
 }
-a:hover em {
-  display: inline;
-}
+
 @media (max-width: 768px) {
  .container {
     display: flex;
