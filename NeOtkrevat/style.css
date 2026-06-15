@@ -73,9 +73,6 @@ a:hover {
   font-family: Georgia, serif;
   text-align: center;
 }
-.br {
-  color:aqua;
-}
 
 @media (max-width: 768px) {
  .container {
@@ -98,6 +95,10 @@ a:hover {
   .next a {
     font-size: 18px;
   }
+  .br {
+  color:aqua;
+}
+
 }
 
   
